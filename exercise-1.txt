@@ -1,0 +1,96 @@
+PSEUDOCODE CHALLENGE
+
+____________________
+
+[1. Newton Second Law]
+
+ALGORITMA
+F = ?, m = 600, a=2
+1. Tampung nilai 600 di variabel 'm'
+2. Tampung nilai 2 di variabel 'a'
+3. Lakukan perkalian variabel 'm' dengan variabel 'a'
+4. Tampung nilai hasil perkalian tersebut di variabel 'F'
+5. Tampilkan hasil 'F'
+6. Selesai
+
+PSEUDOCODE
+STORE 'F' with any value
+STORE 'm' with 600
+STORE 'a' with 2
+SET 'F' with 'm' times 'a'
+DISPLAY 'F'
+
+_____________________
+
+[2. Tahun Kabisat]
+
+ALGORITMA
+Tahun = ?
+1. Tampung angka tahun berapapun ke variabel 'Tahun'
+2. Lakukan pembagian pada variabel 'Tahun' dengan 4, jika hasilnya tidak nol maka lakukan langkah 5, jika hasilnya nol maka lakukan langkah 3
+3. Lakukan pembagian pada variabel 'Tahun' dengan 100, jika hasilnya tidak nol maka lakukan langkah 6, jika hasilnya nol maka lakukan langkah 4
+4. Lakukan pembagian pada variabel 'Tahun' dengan 400, jika hasilnya tidak nol maka lakukan langkah 5, jika hasilnya nol maka lakukan langkah 6
+5. Tampilkan "Tahun Biasa", lakukan langkah 7
+6. Tampilkan "Tahun Kabisat"
+7. Selesai
+
+PSEUDOCODE
+STORE 'Tahun' to any year number
+IF 'Tahun' DIVIDED BY 4 NOT EQUALS TO 0
+    DISPLAY "Tahun Biasa"
+ELSE
+    IF 'Tahun' DIVIDED BY 100 NOT EQUALS TO 0 
+        DISPLAY "Tahun Kabisat"
+    ELSE 
+        IF 'Tahun' DIVIDED BY 400 NOT EQUALS TO 0 
+            DISPLAY "Tahun Biasa"
+        ELSE
+            DISPLAY "Tahun Kabisat"
+        END IF
+    END IF
+END IF
+
+____________________
+
+[3. Laundry Day]
+
+ALGORITMA
+Pakaian = ?
+1. Tampung angka berapapun pada variabel 'Pakaian'
+2. Bila nilai 'Pakaian' kurang dari 20, ulangi langkah 1 sampai jumlah 'Pakaian' sebanyak 20
+3. Tampilkan "Mesin cuci siap dinyalakan"
+
+PSEUDOCODE
+STORE 'Pakaian' to any number
+IF 'Pakaian' EQUALS TO 20
+    DISPLAY 'Mesin cuci siap dinyalakan'
+ELSE 
+    WHILE 'Pakaian' LESS THAN 20
+        ADD 'Pakaian' with 1
+END IF
+_____________________
+
+[4. Periksa Kuku]
+
+ALGORITMA
+1. Tampung angka berapapun pada variabel 'Siswa'
+2. Bila nilai 'Siswa' kurang dari 40, ulangi langkah 1 sampai jumlah 'Siswa' sebanyak 40
+3. Tampung 'KukuSiswaPanjang' dengan boolean
+4. Periksa 'KukuSiswaPanjang'
+5. Jika 'KukuSiswaPanjang' tidak bernilai 0, maka lakukan langkah 7
+6. Tampilkan "pujiSiswa", lakukan langkah 8
+7. Tampilkan "hukumSiswa"
+8. Selesai
+
+PSEUDOCODE
+STORE 'Siswa' with any number
+STORE 'kukuSiswaPanjang' without boolean value
+WHILE 'Siswa' LESS THAN 40
+    ADD 'Siswa' with 1
+    SET 'kukuSiswaPanjang' with boolean value
+IF 'kukuSiswaPanjang' EQUALS TO 'False'
+    DISPLAY "pujiSiswa"
+ELSE 
+    DISPLAY "hukumSiswa"
+END IF
+DISPLAY "Selesai"
