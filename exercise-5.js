@@ -1,5 +1,6 @@
 // STRING
 
+
 //1. Let's Form a Sentence
 
 var word = 'JavaScript ';
