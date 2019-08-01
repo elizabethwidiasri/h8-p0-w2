@@ -1,5 +1,24 @@
 function xo(str) {
-    // you can only write your code here!
+    var x = 0;
+    var o = 0;
+    var i = 0;
+
+    while(i<str.length){
+        if(str[i] === 'x') {
+            x = x + 1;
+        } else {
+            o = o + 1;
+        }
+        i++;
+    }
+
+  
+    if (x === o) {
+        return true
+    } else {
+        return false
+    }
+    
   }
   
   // TEST CASES
