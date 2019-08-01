@@ -44,9 +44,7 @@ console.log(hasilPerkalian);
 
 function processSentence(name, age, address, hobby) {
 
-    longSentence = 'Nama saya ' + name + ', umur saya ' + age + ' tahun, alamat saya di ' + address + ', dan saya punya hobby yaitu ' + hobby + '!';
-
-    return longSentence;
+    return 'Nama saya ' + name + ', umur saya ' + age + ' tahun, alamat saya di ' + address + ', dan saya punya hobby yaitu ' + hobby + '!';
 } 
 
 var name = "Agus";
