@@ -6,8 +6,12 @@ function xo(str) {
     while(i<str.length){
         if(str[i] === 'x') {
             x = x + 1;
-        } else {
+        } else if (str[i] === 'o') {
             o = o + 1;
+        } else {
+            x = x 
+            o = o
+            
         }
         i++;
     }

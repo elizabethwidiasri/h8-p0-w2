@@ -1,7 +1,7 @@
 //Proxytia Gameplay
 
 var nama = 'Marcell';
-var peran = 'Penyihir';
+var peran = 'Ksatria';
 
 if (nama === '' && peran === '') {
     console.log('Nama harus diisi!');

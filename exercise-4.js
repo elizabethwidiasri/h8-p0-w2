@@ -2,11 +2,11 @@ var tanggal = '30';
 var bulan = '4';
 var tahun = '2018';
 
-if (tanggal < 1 || tanggal > 31) {
+if ((tanggal < 1) || (tanggal > 31)) {
     console.log('Input data tanggal dalam rentang antara 1 hingga 31');
-} else if (bulan < 1 || bulan > 12) {
+} else if ((bulan < 1 ) || (bulan > 12)) {
     console.log('Input data bulan dalam rentang antara 1 hingga 12');
-} else if (tahun <= 1899 || tahun >= 2201) {
+} else if ((tahun <= 1899) || (tahun >= 2201)) {
     console.log('Input data tahun dalam rentang antara 1900 hingga 2200');
 } else {
         switch (bulan) {
